@@ -1,0 +1,14 @@
+{
+  "original_pairs": 6058,
+  "cleaned_pairs": 3866,
+  "excluded_pairs": 2192,
+  "exclusion_counts": {
+    "AI_TRANSLATION": 1961,
+    "duplicate_pair": 150,
+    "empty": 2,
+    "identical": 38,
+    "locale_placeholder": 21,
+    "no_chinese_characters": 15,
+    "no_english_letters": 5
+  }
+}
