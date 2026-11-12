@@ -1,0 +1,2 @@
+{"id": "demo.level_greeting", "source": "欢迎来到这个关卡。", "translation": "Welcome to this level.", "flags": [], "status": "needs_review", "attempts": 1, "cultural_review_required": true}
+{"id": "demo.placeholder", "source": "你好，__name__！", "translation": "Hello, __name__!", "flags": [], "status": "needs_review", "attempts": 1, "cultural_review_required": true, "max_chars": 80}

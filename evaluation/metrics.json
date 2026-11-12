@@ -1,0 +1,76 @@
+{
+  "test_rows": 200,
+  "systems": {
+    "base_direct": {
+      "bleu": 21.512287819446428,
+      "chrf_plus_plus": 44.98537867321707,
+      "exact_match_count": 19,
+      "flagged_rows": 8,
+      "flag_counts": {
+        "placeholder": 8,
+        "markup": 1
+      },
+      "source_rows_with_placeholders": 10,
+      "source_rows_with_markup": 2,
+      "inference_seconds": 7.139055013656616,
+      "seconds_per_string": 0.03569527506828308,
+      "retry_count": 0
+    },
+    "base_context": {
+      "bleu": 12.288960304021353,
+      "chrf_plus_plus": 42.34297707868922,
+      "exact_match_count": 0,
+      "flagged_rows": 7,
+      "flag_counts": {
+        "placeholder": 6,
+        "markup": 1
+      },
+      "source_rows_with_placeholders": 10,
+      "source_rows_with_markup": 2,
+      "inference_seconds": 8.697759866714478,
+      "seconds_per_string": 0.04348879933357239,
+      "retry_count": 0
+    },
+    "finetuned_context": {
+      "bleu": 26.817754809422297,
+      "chrf_plus_plus": 47.85279840686671,
+      "exact_match_count": 22,
+      "flagged_rows": 5,
+      "flag_counts": {
+        "placeholder": 5,
+        "markup": 1
+      },
+      "source_rows_with_placeholders": 10,
+      "source_rows_with_markup": 2,
+      "inference_seconds": 7.682828187942505,
+      "seconds_per_string": 0.03841414093971252,
+      "retry_count": 0
+    },
+    "localeguard": {
+      "bleu": 27.110633080299984,
+      "chrf_plus_plus": 47.97247742625571,
+      "exact_match_count": 23,
+      "flagged_rows": 2,
+      "flag_counts": {
+        "placeholder": 2
+      },
+      "source_rows_with_placeholders": 10,
+      "source_rows_with_markup": 2,
+      "inference_seconds": 8.019331216812134,
+      "seconds_per_string": 0.04009665608406067,
+      "retry_count": 5
+    }
+  },
+  "bleu_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+  "chrf_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+  "generation": {
+    "max_new_tokens": 128,
+    "initial_num_beams": 1,
+    "retry_num_beams": 4,
+    "max_retries": 1
+  },
+  "length_limits": "No original character limits available; not fabricated or scored.",
+  "human_evaluation": "Not performed: quality ratings, review time, edits, cultural flags, and false alarms require human reviewers.",
+  "cost": "No paid API used. Local hardware/electricity costs not measured. Cost per accepted string is unavailable without approvals.",
+  "comparison_limit": "Base-context uses a prefix with a translation model not instruction-trained. Fine-tuning and prefix adaptation are confounded in base-context versus fine-tuned-context; no causal claim about context alone."
+}

@@ -1,0 +1,200 @@
+{"id": "galaxy.locked_by_teacher", "category": "galaxy", "en": "Locked by teacher", "zh_CN": "已被教师锁定", "group_id": "e15aab1cc64d4305"}
+{"id": "impact.download_study", "category": "impact", "en": "Download Research Study", "zh_CN": "下载研究报告", "group_id": "0356cfd1db692a26"}
+{"id": "editor.level_tab_docs", "category": "editor", "en": "Documentation", "zh_CN": "文档", "group_id": "60216c057f553994"}
+{"id": "courses.change_language", "category": "courses", "en": "Change Course Language", "zh_CN": "修改课程语言", "group_id": "4f926e7d9eeb8e41"}
+{"id": "user.multiplayer_title", "category": "user", "en": "Multiplayer Levels", "zh_CN": "多人游戏关卡", "group_id": "9333d401f296e3c4"}
+{"id": "teacher_dashboard.multiplayer_levels", "category": "teacher_dashboard", "en": "Multiplayer Levels", "zh_CN": "多人关卡", "group_id": "9333d401f296e3c4"}
+{"id": "courses.basic_syntax", "category": "courses", "en": "Basic Syntax", "zh_CN": "基本语法", "group_id": "aa8385d0c5b55965"}
+{"id": "parents_landing_2.beginner_concepts_1", "category": "parents_landing_2", "en": "Basic syntax", "zh_CN": "基本语法", "group_id": "aa8385d0c5b55965"}
+{"id": "outcomes.coding_hours", "category": "outcomes", "en": "coding hours", "zh_CN": "小时编程", "group_id": "261fec197166c6cc"}
+{"id": "new_premium.carousel_items_5_text", "category": "new_premium", "en": "AI is shaping the future, and those who can harness its power will unlock endless opportunities. This learning experience starts with CodeCombat Junior and CodeCombat. It expands into AI HackStack, where learners will master the art of crafting effective AI prompts and using the latest generative AI tools in a safe and secure environment. ", "zh_CN": "人工智能正在塑造未来，能够驾驭其力量的人将解锁无限的机遇。这种学习体验从CodeCombat Junior和CodeCombat开始，扩展到扣哒宇宙，学习者将在安全可靠的环境中掌握制作有效人工智能提示和使用最新生成式人工智能工具的艺术。", "group_id": "e6210cf95c52f587"}
+{"id": "courses.play_now_learn_2", "category": "courses", "en": "while loops to solve pesky puzzles", "zh_CN": "解决麻烦谜题的while循环", "group_id": "ddfe5a3112e99849"}
+{"id": "impact.partners_school_3", "category": "impact", "en": "Riverdale High School", "zh_CN": "Riverdale 高中", "group_id": "bd088aa2f77607c6"}
+{"id": "legal.archmage_wiki_url", "category": "legal", "en": "our Archmage wiki", "zh_CN": "我们大法师的维基页", "group_id": "22dc53d48cf46818"}
+{"id": "teacher.cs5_curriculum_js", "category": "teacher", "en": "Computer Science 5 - Curriculum Guide (JavaScript)", "zh_CN": "计算机科学 5 - 课程指南 (JavaScript)", "group_id": "6970645c8f881077"}
+{"id": "signup.dont_use_our_email_silly", "category": "signup", "en": "Don't put our email here! Put your parent's email.", "zh_CN": "请填写家长的邮箱地址。", "group_id": "b9c1facdf4ad4fc5"}
+{"id": "play.locked_campaign_glacier", "category": "play", "en": "Complete Cloudrip Mountain to unlock", "zh_CN": "完成安息云峰以解锁该地图", "group_id": "0386abc737a189d5"}
+{"id": "teacher.student_warn", "category": "teacher", "en": "might need some help in", "zh_CN": "可能需要一些帮助", "group_id": "3ad2f0faf05ac1bd"}
+{"id": "premium_features.list_game_dev", "category": "premium_features", "en": "Make and share games with friends", "zh_CN": "与朋友分享游戏", "group_id": "d7ab66a55ff298cb"}
+{"id": "clans.create_clan", "category": "clans", "en": "Create New Clan", "zh_CN": "创建新的部落", "group_id": "26dec25f046349dc"}
+{"id": "code.break", "category": "code", "en": "break", "zh_CN": "中断循环", "group_id": "1d520e24042608ea"}
+{"id": "junior_page.with_our_tablet_friendly_platform", "category": "junior_page", "en": "We’ve anticipated the challenges our youngest learners might face, incorporating **no-reading and no-typing options.** The simplified user interface performs exceptionally well on Chromebooks, as well as tablets and iPads without physical keyboards, ensuring equity and accessibility for all, irrespective of their device.", "zh_CN": "我们预见到了最年幼的学习者可能面临的挑战，并加入了**无需阅读和打字的选项**。简化的用户界面在 Chromebook 以及没有实体键盘的平板电脑和 iPad 上表现优异，确保所有人，无论使用何种设备，都能公平地学习。", "group_id": "828fba87b6be3e6c"}
+{"id": "teacher.project_or_arena", "category": "teacher", "en": "Project or Arena", "zh_CN": "开发项目或竞技场", "group_id": "7ca42ceac4362042"}
+{"id": "clans.track_concepts6a", "category": "clans", "en": "Sort students by name or progress", "zh_CN": "按姓名或进度排序学生", "group_id": "3ba467d85a0b440b"}
+{"id": "about.community_description_2", "category": "about", "en": "for more info.", "zh_CN": "了解更多信息。", "group_id": "b83b8f70cff26ad8"}
+{"id": "apis.handlers", "category": "apis", "en": "Handlers", "zh_CN": "处理程序", "group_id": "8be17cec11299563"}
+{"id": "new_home.get_started_title", "category": "new_home", "en": "Set up your class today", "zh_CN": "现在建立您的班级", "group_id": "a26fdbfcfea20f1e"}
+{"id": "play.available", "category": "play", "en": "Available", "zh_CN": "可用", "group_id": "beb3563951c31070"}
+{"id": "courses.average_levels", "category": "courses", "en": "Average levels completed:", "zh_CN": "平均完成关卡：", "group_id": "ed6c23397d117635"}
+{"id": "teacher.avg_completed", "category": "teacher", "en": "Average levels completed", "zh_CN": "平均完成关卡数", "group_id": "ed6c23397d117635"}
+{"id": "new_home.see_example", "category": "new_home", "en": "See example", "zh_CN": "查看示例", "group_id": "2b2f0ddfdc7467e6"}
+{"id": "teacher.engineering_cycle_worksheet_link", "category": "teacher", "en": "View example", "zh_CN": "查看示例", "group_id": "2b2f0ddfdc7467e6"}
+{"id": "teacher.wd1_headlines_example", "category": "teacher", "en": "View sample solution", "zh_CN": "查看示例", "group_id": "2b2f0ddfdc7467e6"}
+{"id": "hackstack.hint_latent_space_welcome", "category": "hackstack", "en": "Take a break and try AI-inspired experiments.", "zh_CN": "休息一下，玩玩这些 AI 小实验。", "group_id": "4bf1ff49729e2148"}
+{"id": "play.locked_campaign_desert", "category": "play", "en": "Complete Backwoods Forest to unlock", "zh_CN": "完成边际森林以解锁该地图", "group_id": "602fc5a2792de6f1"}
+{"id": "play_level.combo_challenge_complete_body", "category": "play_level", "en": "Great job, it looks like you're well on your way to understanding __concept__!", "zh_CN": "干得好，看来你在理解__concept__的路上走得很顺利!", "group_id": "4dd1d63bcf08e86d"}
+{"id": "outcomes.customize_report", "category": "outcomes", "en": "Customize Report", "zh_CN": "定制报告", "group_id": "367a82b4c94a3de0"}
+{"id": "account_prepaid.prepaid_add_months", "category": "account_prepaid", "en": "This prepaid code adds <strong>__months__ months of subscription</strong> to your account.", "zh_CN": "该激活码将为您的账号提供<strong> __months__ 个月</strong>的会员", "group_id": "4cc27d3d4760a4be"}
+{"id": "teachers.import_classroom", "category": "teachers", "en": "Import Classroom", "zh_CN": "导入班级", "group_id": "e7949b2e4eb1d290"}
+{"id": "play.campaign_multiplayer_description", "category": "play", "en": "... in which you code head-to-head against other players.", "zh_CN": "……在这里您可以与其他玩家进行代码肉搏战。", "group_id": "04b08283e588abe5"}
+{"id": "courses.avg_student_exp_label", "category": "courses", "en": "Average Student Programming Experience", "zh_CN": "学生平均编程经验", "group_id": "0bd6b7203cdd2d86"}
+{"id": "teacher.edit", "category": "teacher", "en": "edit", "zh_CN": "修改密码", "group_id": "12ac9f2b4acee987"}
+{"id": "teacher.edit_2", "category": "teacher", "en": "Edit", "zh_CN": "修改", "group_id": "12ac9f2b4acee987"}
+{"id": "tournament.edit_tournament", "category": "tournament", "en": "Edit Tournament", "zh_CN": " 修改", "group_id": "12ac9f2b4acee987"}
+{"id": "hackstack.edit", "category": "hackstack", "en": "Edit", "zh_CN": "编辑", "group_id": "12ac9f2b4acee987"}
+{"id": "esper.error_realm_prototype_not_realm", "category": "esper", "en": "Realm prototype not realm.", "zh_CN": "Realm 的原型不是 Realm，啥情况。", "group_id": "e42b60805d09f26d"}
+{"id": "signup.ask_teacher_1", "category": "signup", "en": "Ask your teacher for your Class Code.", "zh_CN": "向你的老师获取班级码。", "group_id": "18ddd8e05272dd17"}
+{"id": "new_home.our_coding_programs", "category": "new_home", "en": "Our Coding Programs", "zh_CN": "从编程扣哒世界到AI扣哒宇宙", "group_id": "f73a9a016c16f963"}
+{"id": "hoc_2018.activity_label_3", "category": "hoc_2018", "en": "Advanced GD: Build an Arcade Game!", "zh_CN": "高级玩家：建立一个街机游戏!", "group_id": "88c081ca2e76d181"}
+{"id": "editor.new_level_title", "category": "editor", "en": "Create a New Level", "zh_CN": "创建一个新关卡", "group_id": "693a8cc6eadcdec3"}
+{"id": "play_level.tip_control_destiny", "category": "play_level", "en": "In real open source, you have the right to control your own destiny. - Linus Torvalds", "zh_CN": "拥有控制自己命运的权利才是真正的开源。 - Linus Torvalds", "group_id": "27321d92026530a5"}
+{"id": "concepts.strings_concatenation", "category": "concepts", "en": "String Concatenation", "zh_CN": "连接字符串", "group_id": "52e41c0096af53c5"}
+{"id": "ozaria_home.engaging_row2_p", "category": "ozaria_home", "en": "Students are immersed in an adventure game in which their knowledge of Computer Science advances with the storyline. In this engaging learning environment, students build real-world skills through the power of play.", "zh_CN": "奥佳睿完美融合计算机科学的严谨和科幻故事的天马行空，随着故事情节发展学生将由浅入深、循序渐进学习计算机代码编程概念。在交互式学习体验中，学生在程序概念学习和关卡算法练习中不断提升真正的编程技能和AI基础。", "group_id": "25122e722e1875bf"}
+{"id": "new_home.title_cn_home", "category": "new_home", "en": "CodeCombat|Python, Javascript", "zh_CN": "CodeCombat - 玩游戏学编程", "group_id": "5483bc2baa0859c1"}
+{"id": "legal.github_url", "category": "legal", "en": "our GitHub", "zh_CN": "我们的GitHub", "group_id": "372cdbd70f85dfbe"}
+{"id": "ladder.simulate", "category": "ladder", "en": "Simulate", "zh_CN": "模拟", "group_id": "0f2cecb72d2dcbde"}
+{"id": "hackstack.renderFilterCheckboxes_key-simulate", "category": "hackstack", "en": "simulate", "zh_CN": "模拟", "group_id": "0f2cecb72d2dcbde"}
+{"id": "ozaria_home.code_line_number", "category": "ozaria_home", "en": "1 Billion", "zh_CN": "10亿", "group_id": "8b8f1bd7166430b6"}
+{"id": "new_home.billion", "category": "new_home", "en": "__num__ Billion", "zh_CN": "10亿", "group_id": "8b8f1bd7166430b6"}
+{"id": "code.null", "category": "code", "en": "null", "zh_CN": "空值", "group_id": "4f977e9b0a9d63b8"}
+{"id": "code.nil", "category": "code", "en": "nil", "zh_CN": "空值", "group_id": "4f977e9b0a9d63b8"}
+{"id": "code.None", "category": "code", "en": "None", "zh_CN": "空值", "group_id": "4f977e9b0a9d63b8"}
+{"id": "nav.my_teachers", "category": "nav", "en": "My Teachers", "zh_CN": "我的老师", "group_id": "d258d7233d8c091e"}
+{"id": "new_home.real_code", "category": "new_home", "en": "Real, typed code", "zh_CN": "编写真实代码", "group_id": "c8dd0c3ec5c68ccf"}
+{"id": "ozaria_home.shareable_resources_header", "category": "ozaria_home", "en": "Shareable Resources", "zh_CN": "可供分享的教学资源", "group_id": "ee014f57fec80341"}
+{"id": "no_licenses_page.personalized_learning", "category": "no_licenses_page", "en": "Personalized Learning and Scaffolded Instruction", "zh_CN": "个性化学习和多层次教学", "group_id": "479520351f7b9ddc"}
+{"id": "play.age_description_codecombat", "category": "play", "en": "Real Python or JavaScript coding for everyone", "zh_CN": "人人都能学的实用代码编程", "group_id": "465fa0b8db3f923c"}
+{"id": "ladder.code_being_simulated", "category": "ladder", "en": "Your new code is being simulated by other players for ranking. This will refresh as new matches come in.", "zh_CN": "您的新代码正在被其他玩家模拟评分。排名将会在新对战结束后刷新。", "group_id": "1f4c07aa9fb91bf1"}
+{"id": "contact.subscribe_suffix", "category": "contact", "en": "and we'll be happy to help you with your code.", "zh_CN": "并且我们很乐意给您提供代码相关的帮助", "group_id": "c48f2e6d2ee872cc"}
+{"id": "play.anon_signup_create_class", "category": "play", "en": "Want to create a class?", "zh_CN": "想创建一个班级？", "group_id": "70618f3d8f2c7e42"}
+{"id": "teacher.back_to_resource_hub", "category": "teacher", "en": "Back to Teacher Toolkit", "zh_CN": "返回资源仓库", "group_id": "5eff57667713a4e6"}
+{"id": "teacher.apply_licenses_to_the_following_students", "category": "teacher", "en": "Apply Licenses to the Following Students", "zh_CN": "将许可应用于以下学生", "group_id": "cd55083b1c59d10a"}
+{"id": "play_game_dev_level.default_student_instructions", "category": "play_game_dev_level", "en": "Click to control your hero and win your game!", "zh_CN": "单击控制英雄，并取得胜利！", "group_id": "2190238438790b68"}
+{"id": "courses.update_old_classroom_detail_2", "category": "courses", "en": "and giving students the new Class Code that appears.", "zh_CN": "创建新班级，并为学生提供出现的新班级码。", "group_id": "56cd2077e9d315c2"}
+{"id": "ozaria_home.subtitle", "category": "ozaria_home", "en": "Computer Science that Captivates", "zh_CN": "引人入胜的计算机科学课程", "group_id": "fbfde726c559cd2b"}
+{"id": "units.year", "category": "units", "en": "year", "zh_CN": "年", "group_id": "91021b4a510b362e"}
+{"id": "units.years", "category": "units", "en": "years", "zh_CN": "年", "group_id": "91021b4a510b362e"}
+{"id": "calendar.year", "category": "calendar", "en": "Year", "zh_CN": "年", "group_id": "91021b4a510b362e"}
+{"id": "concepts.event_data", "category": "concepts", "en": "Event Data", "zh_CN": "事件数据", "group_id": "6298c0df4639a4d2"}
+{"id": "teachers.class_code_desc", "category": "teachers", "en": "Students can enter this code when they sign up at", "zh_CN": "学生注册的时候可以输入班级码", "group_id": "2b6de465f610e4f1"}
+{"id": "user.certificate_endorsed_by", "category": "user", "en": "Endorsed by", "zh_CN": "颁发人 ", "group_id": "0d965f802de9d659"}
+{"id": "new_premium.carousel_items_3_text", "category": "new_premium", "en": "Web development is constantly evolving, and staying ahead of the curve is essential. In this curriculum, foundational web development activities will be conducted in CodeCombat, while CodeCombat Junior provides an accessible starting point for younger learners. AI HackStack will serve as the primary platform for building and publishing projects, with limited use of CodeCombat Worlds and AI League to reinforce key coding concepts in an engaging way.", "zh_CN": "Web开发不断发展，保持领先地位至关重要。在本课程中，基础Web开发活动将在CodeCombat中进行，而CodeCombat Junior则为年轻的学习者提供了一个易于入门的起点。扣哒宇宙将作为构建和发布项目的主要平台，少量使用CodeCombat Worlds和AI League以引人入胜的方式加强关键的编码概念。", "group_id": "ec194ee582d6de42"}
+{"id": "editor.revert_models", "category": "editor", "en": "Revert Models", "zh_CN": "还原模式", "group_id": "9a22de446d3330f2"}
+{"id": "ozaria_home.value_prop2_h2", "category": "ozaria_home", "en": "Build real skills through play", "zh_CN": "通过边玩边学掌握真正的技能", "group_id": "00b60ef085e5865a"}
+{"id": "teacher_dashboard.sort_by_progress_asc", "category": "teacher_dashboard", "en": "Progress (Low to High)", "zh_CN": "关卡进度（由低到高）", "group_id": "c491d96fc49c270b"}
+{"id": "common.back", "category": "common", "en": "Back", "zh_CN": "返回", "group_id": "fe229f2cbe6828df"}
+{"id": "play_level.victory_return_to_ladder", "category": "play_level", "en": "Return to Ladder", "zh_CN": "返回", "group_id": "fe229f2cbe6828df"}
+{"id": "editor.back", "category": "editor", "en": "Back", "zh_CN": "后退", "group_id": "fe229f2cbe6828df"}
+{"id": "teacher.wd1_headlines", "category": "teacher", "en": "Headlines & Headers Activity", "zh_CN": "标题标识活动练习", "group_id": "75346e167a1f479c"}
+{"id": "account_prepaid.purchase_code", "category": "account_prepaid", "en": "Purchase a Subscription Code", "zh_CN": "购买兑换码", "group_id": "5cff72f122ccaac2"}
+{"id": "teacher.engineering_cycle_worksheet", "category": "teacher", "en": "Engineering Cycle Worksheet", "zh_CN": "程序设计流程表", "group_id": "3224f1cbdc64c169"}
+{"id": "ladder.tournament_blurb", "category": "ladder", "en": "Write code, collect gold, build armies, crush foes, win prizes, and upgrade your career in our $40,000 Greed tournament! Check out the details", "zh_CN": "写代码，收金币，建军队，碎敌军，赢奖品，以及在我们奖励多达$40,000的Greed tournament里升级您的事业！ 快去查阅详情！", "group_id": "c5e0eb5ec1358dea"}
+{"id": "code.undefined", "category": "code", "en": "undefined", "zh_CN": "未定义", "group_id": "c5d8d163b076202c"}
+{"id": "editor.level_tab_systems", "category": "editor", "en": "Systems", "zh_CN": "系统", "group_id": "45215b72ffc19d8c"}
+{"id": "editor.new_component_field_system", "category": "editor", "en": "System", "zh_CN": "系统", "group_id": "45215b72ffc19d8c"}
+{"id": "ozaria_home.core_curriculum_carousel_item4_p", "category": "ozaria_home", "en": "Next, your students will put what they learned into practice by typing real Python or JavaScript to solve a variety of challenges in scaffolded game levels. Built-in hints help students identify and fix bugs, leading to greater coding confidence.", "zh_CN": "下一步，学生将进入写代码阶段，通过Python, JavaScript和C++等程序语言真实代码训练，完成不同难度的关卡学习挑战，学生在闯关的过程中，可以通过关卡提示发现和修复程序中的bug，满满的成就感油然而生！", "group_id": "ebec1bba76a6f467"}
+{"id": "teacher_dashboard.write", "category": "teacher_dashboard", "en": "Full Access", "zh_CN": "全部权限", "group_id": "c110767499303749"}
+{"id": "loading_error.not_allowed", "category": "loading_error", "en": "Method not allowed.", "zh_CN": "方法不允许。", "group_id": "821297f90bb604e1"}
+{"id": "announcement.pugicorn_description", "category": "announcement", "en": "Pugicorns are some of the rarest creatures and can cast spells!", "zh_CN": "巴哥犬是一些最稀有的生物，可以施展法术！", "group_id": "1fbfbe1870eafd5e"}
+{"id": "ozaria_home.admin_dashboard_p", "category": "ozaria_home", "en": "Designed with feedback from our community of over 140,000 educators, Ozaria addresses the challenges of teaching Computer Science by providing tools and resources that work.", "zh_CN": "奥佳睿开发过程中得到了我们全球14万教师群体的反馈意见。平台提供了行之有效的教学工具和学习资源，解决学校和机构计算机真实代码编程教学中的诸多痛点。", "group_id": "8b6a08e33df584e9"}
+{"id": "teacher.student_good_detail", "category": "teacher", "en": "This student is keeping pace with the class's average level completion times.", "zh_CN": "这个学生的进度达到了班级的平均进度。", "group_id": "42d8ba174ff23d07"}
+{"id": "legal.email_settings_url", "category": "legal", "en": "your email settings", "zh_CN": "您的电子邮件设置", "group_id": "45c8393373ba9202"}
+{"id": "courses.estimated_class_dates_label", "category": "courses", "en": "Estimated Class Dates", "zh_CN": "计划课程日期", "group_id": "33c2f609a8b97ff4"}
+{"id": "account_prepaid.lookup_code", "category": "account_prepaid", "en": "Lookup prepaid code", "zh_CN": "查看兑换码", "group_id": "de71fb1dc9412a0d"}
+{"id": "teachers.programming_language_edit_desc_new", "category": "teachers", "en": "If you change the programming language, your students' progress in the old language will be hidden, and they will have to start over in the new language. We recommend creating a new class for the same students.", "zh_CN": "如果您更改编程语言，您的学生在旧语言中的进度将被隐藏，他们将不得不使用新语言重新开始每个关卡。 我们更建议为这些学生创建一个新班级。", "group_id": "a9324273315bacc0"}
+{"id": "teachers.classroom_level_chat", "category": "teachers", "en": "AI Level Hints", "zh_CN": "关卡内AI提示", "group_id": "a098691b18cbe0af"}
+{"id": "play_level.share_your_project", "category": "play_level", "en": "Share Your Project", "zh_CN": "分享你的项目", "group_id": "20a6ccad2d2fff5b"}
+{"id": "play_level.running", "category": "play_level", "en": "Running...", "zh_CN": "运行中...", "group_id": "7a17e44a2d606385"}
+{"id": "play_level.tome_cast_button_running", "category": "play_level", "en": "Running", "zh_CN": "正在运行", "group_id": "7a17e44a2d606385"}
+{"id": "play.play_as", "category": "play", "en": "Play As", "zh_CN": "扮演", "group_id": "76cc875a286543af"}
+{"id": "teacher.teacher_quest_teach_strings_step1", "category": "teacher", "en": "Get 75% of at least one class through True Names", "zh_CN": "班级中至少有 75% 的学生通过该关卡 True Names", "group_id": "c0b85c09f35573c0"}
+{"id": "esper.error_need_object", "category": "esper", "en": "Need an object.", "zh_CN": "这里得要个对象（东西），别给个空的。", "group_id": "f728ef7416e9b5e3"}
+{"id": "teachers_quote.primary_role_default", "category": "teachers_quote", "en": "Select Primary Role", "zh_CN": "（请选择）", "group_id": "530e85e4a394b78e"}
+{"id": "teachers_quote.purchaser_role_default", "category": "teachers_quote", "en": "Select Purchaser Role", "zh_CN": "（请选择）", "group_id": "530e85e4a394b78e"}
+{"id": "about.jobs_benefit_6", "category": "about", "en": "Medical (gold), dental, vision, 401K", "zh_CN": "医疗 (金), 牙科, 视力，交通费", "group_id": "499e8d32d7343fe3"}
+{"id": "esper.unexpected_token2", "category": "esper", "en": "Unexpected token", "zh_CN": "有个不该出现的字符冒出来了。", "group_id": "c4fd3ffa18902b28"}
+{"id": "teacher.engineering_cycle_worksheet_desc", "category": "teacher", "en": "Use this worksheet to teach students the basics of the engineering cycle: Assess, Design, Implement and Debug. Refer to the completed example worksheet as a guide.", "zh_CN": "基于此表来管理学生的程序设计流程、评估、计划、进度和调试。请参考完整的示例表作为指南。", "group_id": "f9f2e53c025404c8"}
+{"id": "parents_landing_2.learn_with_instructor", "category": "parents_landing_2", "en": "Learn with an Instructor", "zh_CN": "跟随导师学习", "group_id": "dbedb04df6c4596b"}
+{"id": "play_level.tip_mistakes_proof_of_trying", "category": "play_level", "en": "Mistakes in your code are just proof that you are trying.", "zh_CN": "代码中的错误证明你尝试过了。", "group_id": "513b50a968cc159b"}
+{"id": "parents_landing_2.live_class_details_5", "category": "parents_landing_2", "en": "Curriculum trusted by 80,000+ educators", "zh_CN": "受 80,000+ 教育工作者信赖的课程体系", "group_id": "ca4ad9a97b05fbb7"}
+{"id": "parents_landing_2.private_classes_price", "category": "parents_landing_2", "en": "$219/mo or $399/mo", "zh_CN": "$219/月或$399/月", "group_id": "04c8d5e5500dc436"}
+{"id": "parents_v2.faq_13_answer", "category": "parents_v2", "en": "Unlike other coding education platforms, our game-based approach uses our proprietary games and technology to deliver more engaging experience and more effective outcomes. We’ve developed our own web-based games and a fully immersive experience on Roblox that makes learning to code and game creation more enjoyable.", "zh_CN": "与其他编程教育平台不同，我们基于游戏的方法使用我们专有的游戏和技术来提供更具吸引力的体验和更有效的结果。我们开发了自己的基于 Web 的游戏和 Roblox 上完全沉浸式的体验，使学习编码和游戏创作更加有趣。", "group_id": "2887ffbf3762f9e6"}
+{"id": "educator_signup_ozaria_encouragement.educators_continue_coco", "category": "educator_signup_ozaria_encouragement", "en": "Educators who want to continue using CodeCombat in their class", "zh_CN": "想在课堂上继续使用 CodeCombat 的教育工作者。", "group_id": "b67660fc7ee902ec"}
+{"id": "about.sae_title", "category": "about", "en": "Senior Account Executive", "zh_CN": "高级客户经理", "group_id": "b12ab8d29e92a76e"}
+{"id": "play_level.non_user_code_problem_title", "category": "play_level", "en": "Unable to Load Level", "zh_CN": "不能读入关卡", "group_id": "bd6b14642030e397"}
+{"id": "play_level.skip_tutorial", "category": "play_level", "en": "Skip (esc)", "zh_CN": "跳过（esc）", "group_id": "e9b3c9fca089cf89"}
+{"id": "announcement.play_second_kithmaze", "category": "announcement", "en": "Play {{the_second_kithmaze}} to unlock the Wolf Pup!", "zh_CN": "玩 {{the_second_kithmaze}} 解锁狼崽子!", "group_id": "18087e6c96c5b882"}
+{"id": "teacher_dashboard.deleting_progress", "category": "teacher_dashboard", "en": "Deleting progress", "zh_CN": "正在删除进度", "group_id": "67a923a58b836b0d"}
+{"id": "ladder.tutorial_play", "category": "ladder", "en": "Play Tutorial", "zh_CN": "玩教程", "group_id": "9114d457840f8db4"}
+{"id": "parents_v2.grid_self_paced_year_price", "category": "parents_v2", "en": "$__price__ Annual", "zh_CN": "$__price__ 年度", "group_id": "808fc44abf17ebcc"}
+{"id": "parents_v2.grid_self_paced_year_price_without_currency", "category": "parents_v2", "en": "__price__ Annual", "zh_CN": "__price__ 年度", "group_id": "808fc44abf17ebcc"}
+{"id": "no_licenses_page.looking_for_engaging", "category": "no_licenses_page", "en": "Looking for engaging computer science curriculum?", "zh_CN": "寻找吸引人的计算机科学课程？", "group_id": "cab815fd79ae15ba"}
+{"id": "account_settings.contribute_suffix", "category": "account_settings", "en": " to find out more.", "zh_CN": "查看更多信息。", "group_id": "6287a1091f88e98a"}
+{"id": "hackstack_page.faq_1_answer", "category": "hackstack_page", "en": "AI HackStack is great for middle school and high school-aged students. Our safety and privacy practices allow us to help younger users, like your students, interface safely with AI.  Do you teach elementary-aged students? If so, **[mailto:team@codecombat.com]connect with our team** to learn more about CodeCombat AI Junior, which introduces multimodal generative AI in a simple and intuitive platform designed specifically for K-5 students.\"", "zh_CN": "扣哒宇宙非常适合初中和高中阶段的学生。我们的安全与隐私实践让年轻用户（如您的学生）能够安全地与 AI 互动。如果您教授的是小学生，请**[mailto:team@codecombat.com]联系我们的团队**，了解更多关于 CodeCombat AI Junior 的信息，这是一个专为 K-5 学生设计的简单直观的多模态生成式 AI 平台。", "group_id": "bebace1d6986484e"}
+{"id": "school_administrator.membership_tooltip", "category": "school_administrator", "en": "<p><b>The Classroom Membership History</b> displays the total number of unique students who were enrolled across all classrooms.</p><p><b>Remember:</b> Classes may be archived and licenses may be reused throughout the school year, so these numbers represent how many students truly participated in the program.</p>", "zh_CN": "<p><b>班级成员历史：</b>显示所有班级中注册过的学生总人数（去重后）。</p><p><b>注意：</b>班级可能会被归档，授权许可在学年期间可能会被重复使用，所以这些数字反映的是实际参与该项目的学生数量。</p>", "group_id": "3e5638a5154d7a6f"}
+{"id": "junior_page.testimonials_1_title", "category": "junior_page", "en": "STEM Program Director, American STEM Prep", "zh_CN": "美国 STEM 预科项目 STEM 项目总监", "group_id": "d3bcd7d676e6077f"}
+{"id": "clans.track_concepts3a", "category": "clans", "en": "Track levels completed for each student", "zh_CN": "查看每位同学达到的等级", "group_id": "bfe8e0d3349bc6f8"}
+{"id": "keyboard_shortcuts.toggle_playback", "category": "keyboard_shortcuts", "en": "Toggle play/pause.", "zh_CN": "继续/暂停按钮", "group_id": "371b46f35904b978"}
+{"id": "subscribe.personal_sub", "category": "subscribe", "en": "Personal Subscription", "zh_CN": "个人会员", "group_id": "a13aea20c5a544e5"}
+{"id": "teacher_dashboard.refresh_progress_helptext", "category": "teacher_dashboard", "en": "Student progress may take 2–3 minutes to sync after completion.", "zh_CN": "学生的完成情况可能需要2-3分钟时间同步", "group_id": "aa4776e7b0176e40"}
+{"id": "teacher.revoke_license", "category": "teacher", "en": "Revoke License", "zh_CN": "撤回许可", "group_id": "5239ca572fb11a0c"}
+{"id": "teacher_dashboard.revoke_licenses", "category": "teacher_dashboard", "en": "Revoke Licenses", "zh_CN": "收回许可", "group_id": "5239ca572fb11a0c"}
+{"id": "play_level.tip_munchkin", "category": "play_level", "en": "If you don't eat your vegetables, a munchkin will come after you while you're asleep.", "zh_CN": "如果您不吃掉您的蔬菜, 一个小矮人将在您睡着之后来找您。", "group_id": "4e7e09ae91180836"}
+{"id": "account_invoices.not_logged_in", "category": "account_invoices", "en": "Log in or create an account to access invoices.", "zh_CN": "登录或创建一个账号来获得发票。", "group_id": "47b0d6c85bf550cb"}
+{"id": "codequest_page.core_curriculum_heading_21", "category": "codequest_page", "en": "Our roster of speakers offer ", "zh_CN": "我们的分享嘉宾来自不同专业背景和行业", "group_id": "2d423af10962015c"}
+{"id": "courses.send_invites", "category": "courses", "en": "Invite Students", "zh_CN": "发送邀请", "group_id": "32f534798267967d"}
+{"id": "special_offer.low_price_title", "category": "special_offer", "en": "Just __starterLicensePrice__ per student", "zh_CN": "每个学生仅仅只要 __starterLicensePrice__ 元 ", "group_id": "e4c2173078a0fc85"}
+{"id": "esper.unterminated", "category": "esper", "en": "Unterminated `$1`", "zh_CN": "`$1` 没关门，还敞着呢。", "group_id": "76da87d6e7343676"}
+{"id": "esper.need_a_on_the", "category": "esper", "en": "Need a `:` on the end of the line following `$1`.", "zh_CN": "在 `$1` 后面加上冒号 `:`，别忘。", "group_id": "506a06f4c31b9dee"}
+{"id": "options.editor_config_livecompletion_label", "category": "options", "en": "Enable Autocomplete", "zh_CN": "实时代码补全", "group_id": "0d45ebbfc3ad791d"}
+{"id": "new_home.teach_cs1_free", "category": "new_home", "en": "Teach CS1 Free", "zh_CN": "免费教授计算机科学入门", "group_id": "d0ca631496a1d488"}
+{"id": "teacher.teacher_quest_teach_methods", "category": "teacher", "en": "Help your students learn how to `call methods`.", "zh_CN": "帮助你的学生学习如何 `调用方法`", "group_id": "3b8adb2102de60c6"}
+{"id": "clans.private_clans", "category": "clans", "en": "Private Clans", "zh_CN": "私人部落", "group_id": "92320c0bbeb5f12e"}
+{"id": "ozaria_home.global_community_header", "category": "ozaria_home", "en": "Join Our Global Community", "zh_CN": "加入我们的全球学习社区", "group_id": "431fa9e419c9d1a0"}
+{"id": "new_home.global_community", "category": "new_home", "en": "Join Our Global Community", "zh_CN": "加入我们全球社区", "group_id": "431fa9e419c9d1a0"}
+{"id": "editor.level_tab_thangs_search", "category": "editor", "en": "Search thangs", "zh_CN": "查找物体", "group_id": "800d862679d6ed6d"}
+{"id": "community.thang_editor_prefix", "category": "community", "en": "We call units within the game 'thangs'. Use the", "zh_CN": "我们管游戏中的单位叫 '物品'。 利用", "group_id": "e54fd748ff3e8cd4"}
+{"id": "school_administrator.class_membership_history", "category": "school_administrator", "en": "Classroom Membership History", "zh_CN": "班级成员历史", "group_id": "7481df92f37c95e7"}
+{"id": "options.editor_config_invisibles_description", "category": "options", "en": "Displays invisibles such as spaces or tabs.", "zh_CN": "显示空格或TAB键等空白字符。", "group_id": "adf1651e8880fb3c"}
+{"id": "contribute.artisan_subscribe_desc", "category": "contribute", "en": "Get emails on level editor updates and announcements.", "zh_CN": "通过电子邮件获得关卡编辑器更新和公告。", "group_id": "2fb0292d2506472a"}
+{"id": "play_level.infinite_loop_reset_level", "category": "play_level", "en": "Reset Level", "zh_CN": "重置关卡", "group_id": "f94d529464e938ef"}
+{"id": "play_level.block_down", "category": "play_level", "en": "down", "zh_CN": "下", "group_id": "4eda35e726eb02cf"}
+{"id": "contribute.diplomat_i18n_page", "category": "contribute", "en": "translations page", "zh_CN": "翻译页面", "group_id": "c1890b19d63b7a07"}
+{"id": "amazon_hoc.title", "category": "amazon_hoc", "en": "Keep Learning with Amazon!", "zh_CN": "与亚马逊一起不断学习！", "group_id": "ab688ec730a32689"}
+{"id": "new_home.want_coco", "category": "new_home", "en": "Want CodeCombat at your school?", "zh_CN": "把扣哒世界带到您的学校？", "group_id": "8ae4ed4a103708ce"}
+{"id": "community.article_editor_suffix", "category": "community", "en": "and help CodeCombat players get the most out of their playtime.", "zh_CN": "来帮助玩家从游戏中学到更多的知识。", "group_id": "1f844354033ea764"}
+{"id": "apcsp.unit_10", "category": "apcsp", "en": "Unit 10: Post-AP", "zh_CN": "第十单元：Post-AP", "group_id": "6c2e27e69f46ce40"}
+{"id": "teacher_ozaria_encouragement_modal.bullet1", "category": "teacher_ozaria_encouragement_modal", "en": "Deepen student connection to learning through an epic story and immersive gameplay", "zh_CN": "通过宏大故事和沉浸式游戏加深学生与学习的联系", "group_id": "c795eb463fee9250"}
+{"id": "editor.level_title", "category": "editor", "en": "Level Editor", "zh_CN": "关卡编辑器", "group_id": "d456d202bd040b62"}
+{"id": "editor.new_thang_title", "category": "editor", "en": "Create a New Thang Type", "zh_CN": "创建一个新物品类型", "group_id": "dd890af76dbfcc76"}
+{"id": "codequest_page.schedule_event_sub_title_2", "category": "codequest_page", "en": "Tour", "zh_CN": "城市探索", "group_id": "93e018c244ee1e64"}
+{"id": "play.anonymous", "category": "play", "en": "Anonymous", "zh_CN": "匿名玩家", "group_id": "653eed6b8a205a13"}
+{"id": "signup.student_type_5", "category": "signup", "en": "Have your Class Code ready!", "zh_CN": "要准备班级码哦！", "group_id": "ef119d8ad38645b3"}
+{"id": "choose_hero.blocks_text", "category": "choose_hero", "en": "Blocks", "zh_CN": "图形化", "group_id": "2eb62faa69cbe2bc"}
+{"id": "choose_hero.blocks", "category": "choose_hero", "en": "Blocks", "zh_CN": "格挡", "group_id": "2eb62faa69cbe2bc"}
+{"id": "about.lcd_title", "category": "about", "en": "Lead Curriculum Developer", "zh_CN": "首席课程开发设计师", "group_id": "af38456a6ece6c25"}
+{"id": "about.downloads_title", "category": "about", "en": "Download Assets & Information", "zh_CN": "下载更多信息", "group_id": "b62d40f2a2e2689b"}
+{"id": "tournament.upcoming", "category": "tournament", "en": "Upcoming", "zh_CN": "即将到来", "group_id": "fcd890fe9d06110f"}
+{"id": "teacher.hoc_teacher_led", "category": "teacher", "en": "Teacher-Led Lessons", "zh_CN": "教师主导的课程", "group_id": "446d00df81d2152c"}
+{"id": "ozaria_home.core_curriculum_carousel_item3_p", "category": "ozaria_home", "en": "In the third stage of the learning cycle, your students will learn new concepts through expositional dialogue between characters in the Ozaria story. Voice-over, graphics, and animations make absorbing new information even more accessible and fun.", "zh_CN": "在学习的第三个阶段中，在奥佳睿人物之间的对话中，进一步引出新的程序概念和计算机AI知识体系，通过人物对话、图表展示和动画效果等，让学习过程浅显易懂并生动有趣，帮助学生快速理解和掌握全新的知识概念。", "group_id": "07dd241c7a5824fb"}
+{"id": "signup.choose_account_subtitle", "category": "signup", "en": "Please select the option that best describes you", "zh_CN": "请选择你的账号身份", "group_id": "6fbd3712475359d6"}
+{"id": "parents_landing_2.live_class_booked_thank_you", "category": "parents_landing_2", "en": "Your live class has been booked, thank you!", "zh_CN": "您的直播课已被预订，谢谢您！", "group_id": "7625a26b8aeee53a"}
+{"id": "hackstack.tools", "category": "hackstack", "en": "Tools", "zh_CN": "工具", "group_id": "9b1bae5f15698ff8"}
+{"id": "courses.update_account_account_email", "category": "courses", "en": "Account Email/Username:", "zh_CN": "账号邮箱/用户名：", "group_id": "0267cc0ddf254e99"}
+{"id": "teacher.apply_license", "category": "teacher", "en": "Apply License", "zh_CN": "使用许可", "group_id": "67d5dc1cab525343"}
+{"id": "teacher.apply_licenses", "category": "teacher", "en": "Apply Licenses", "zh_CN": "应用许可", "group_id": "67d5dc1cab525343"}
+{"id": "parents_landing_2.best_seller", "category": "parents_landing_2", "en": "Best Seller", "zh_CN": "畅销产品", "group_id": "40e65fc294b77af8"}
+{"id": "courses.concepts_used", "category": "courses", "en": "Concepts Used:", "zh_CN": "使用的概念", "group_id": "5031b79a54983d2a"}
+{"id": "legal.nutshell_see_also", "category": "legal", "en": "See also:", "zh_CN": "参见:", "group_id": "e8bdcfb01b0db9a9"}
+{"id": "teachers.re_import_classroom", "category": "teachers", "en": "Re-Import Classroom", "zh_CN": "重新导入班级", "group_id": "6f771264fb5532dc"}
+{"id": "subscribe.yearly_inspire", "category": "subscribe", "en": "17% discount", "zh_CN": "立省189元", "group_id": "e1503e5d8bcce4b7"}
+{"id": "save_load.granularity_change_history", "category": "save_load", "en": "History", "zh_CN": "历史记录", "group_id": "8f301f121603b9d4"}
+{"id": "play.locked", "category": "play", "en": "Locked", "zh_CN": "需解锁", "group_id": "86e460e632057f28"}
+{"id": "common.locked", "category": "common", "en": "Locked", "zh_CN": "已锁定", "group_id": "86e460e632057f28"}
+{"id": "inventory.locked", "category": "inventory", "en": "(locked)", "zh_CN": "(需解锁)", "group_id": "86e460e632057f28"}
+{"id": "courses.locked", "category": "courses", "en": "Locked", "zh_CN": "锁定", "group_id": "86e460e632057f28"}
+{"id": "teacher_dashboard.lock", "category": "teacher_dashboard", "en": "Lock", "zh_CN": "锁定", "group_id": "86e460e632057f28"}
+{"id": "new_premium.features_1", "category": "new_premium", "en": "Full Access to All[NEWLINE]Learning Adventures", "zh_CN": "完全访问所有[NEWLINE]学习冒险", "group_id": "474c81c7f920d674"}
+{"id": "codequest_page.how_it_works", "category": "codequest_page", "en": "How it Works", "zh_CN": "如何申请", "group_id": "c806e01d9291f55b"}
+{"id": "courses.average_time", "category": "courses", "en": "Average level play time:", "zh_CN": "平均游戏时间：", "group_id": "e1c656ca3f5a0f6a"}
+{"id": "teacher.avg_playtime", "category": "teacher", "en": "Average level playtime", "zh_CN": "单关平均通关时间", "group_id": "e1c656ca3f5a0f6a"}

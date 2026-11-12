@@ -1,0 +1,17 @@
+{
+  "seed": 42,
+  "model": "Helsinki-NLP/opus-mt-zh-en",
+  "revision": "cf109095479db38d6df799875e34039d4938aaa6",
+  "input_sha256": "6acd29041937dce792116bdca6c9278c79d45c7c78b4f04077eefb9fce5287b2",
+  "input_rows": 3866,
+  "excluded": 7,
+  "split_sizes": {
+    "train": 3459,
+    "validation": 200,
+    "test": 200
+  },
+  "groups": 3326,
+  "max_source_tokens": 128,
+  "max_target_tokens": 128,
+  "grouping": "Exact normalized source OR target; plus length-ratio >= .9, character-4gram candidate overlap >= .75, SequenceMatcher >= .92. Group assignment is deterministic, not stratified. This heuristic does not guarantee removal of all semantic near-duplicates."
+}

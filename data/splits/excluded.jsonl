@@ -1,0 +1,7 @@
+{"id": "ozaria_home.faq_row1_p", "reason": "over_128_tokens", "source_tokens": 184, "target_tokens": 88}
+{"id": "events.main_description", "reason": "over_128_tokens", "source_tokens": 157, "target_tokens": 9}
+{"id": "hackstack_page.professional_development_text", "reason": "over_128_tokens", "source_tokens": 151, "target_tokens": 134}
+{"id": "hackstack_page.faq_4_answer", "reason": "over_128_tokens", "source_tokens": 133, "target_tokens": 127}
+{"id": "hackstack_page.faq_6_answer", "reason": "over_128_tokens", "source_tokens": 224, "target_tokens": 168}
+{"id": "new_premium.new_to_ai", "reason": "over_128_tokens", "source_tokens": 114, "target_tokens": 140}
+{"id": "parents_v2.new_to_ai", "reason": "over_128_tokens", "source_tokens": 162, "target_tokens": 150}

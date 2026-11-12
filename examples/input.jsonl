@@ -1,0 +1,2 @@
+{"id":"demo.level_greeting","category":"play_level","zh_CN":"欢迎来到这个关卡。"}
+{"id":"demo.placeholder","category":"play_level","zh_CN":"你好，__name__！","max_chars":80}
