@@ -2,6 +2,12 @@
 
 A small Chinese-to-English localization research prototype using CodeCombat's public bilingual locale strings. It produces translation drafts, checks technical constraints, and requires human review before export.
 
+## About CodeCombat
+
+[CodeCombat](https://codecombat.com/) is an educational programming game that helps learners practice coding through gameplay, using languages such as Python and JavaScript. It connects programming practice with game challenges, making it a useful setting for studying how educational content is localized for different audiences. Its [public GitHub repository](https://github.com/codecombat/codecombat) includes multilingual interface and instructional strings.
+
+LocaleGuard uses CodeCombat's matched English and Simplified Chinese locale strings as a case study for translation, technical quality checks, and human cross-cultural review. The dataset includes game UI, programming explanations, and teacher-facing content, alongside account and marketing text. We use the public localization files; this repository does not include CodeCombat's proprietary hosted levels or a complete copy of the playable game.
+
 ## Current status
 
 - Mirrored **6,058 original bilingual pairs** and produced **3,866 automatically cleaned unique candidates** with an exclusion log and upstream attribution.
