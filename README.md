@@ -93,11 +93,35 @@ Training updates only query/value LoRA weights (rank 8, alpha 16, dropout 0.05),
 
 ## Team and next work
 
-- **Eurus:** model training, data preparation, and translation pipeline.
-- **Mike:** educational-game context and playable demonstration integration.
-- **Rong:** human review, evaluation, and localization QA.
+**Eurus** owns data preparation, model training, and the translation pipeline. The first training run and automatic evaluation are complete; ongoing work includes supporting the reviewers and documenting subsequent model changes.
 
-Next: review a bilingual sample for alignment, add verified scene/context and approved terminology, complete blind human ratings and effort measurements, and connect approved translations to a demonstration. Cultural-risk detection is not trained or validated in this release.
+**Mike and Rong:** ownership of the two workstreams below is **TBD**. Both are open for selection; neither task has been assigned to a specific teammate.
+
+### TODO: Cross-cultural Risk Check — owner TBD
+
+Goal: review whether translations could cause cultural or religious misunderstanding or offense for a defined audience.
+
+- [ ] Define the target region, cultural context, audience age, and educational setting before judging risk.
+- [ ] Create a review rubric covering religious references, cultural stereotypes, identity-related wording, and age/context appropriateness, with severity levels and supporting evidence.
+- [ ] Review source text and translation together; record string ID, available context, target audience, risk category, rationale, severity, and suggested revision. Mark insufficient context as needing clarification.
+- [ ] Document representative cases, including acceptable expressions where relevant. A religious term alone is not evidence of risk.
+- [ ] If real examples are scarce, create a separate, clearly labeled challenge set and report it separately from the real test data.
+
+Deliverables: review rubric, annotated risk-review table, and a short case-study summary. This is a human-review workstream; its findings do not demonstrate that the model can automatically detect cultural risk.
+
+### TODO: Model Evaluation — owner TBD
+
+Goal: independently assess whether fine-tuning and the LocaleGuard checking/retry workflow improve translation quality.
+
+- [ ] Read [human-review instructions](evaluation/HUMAN_REVIEW.md) and inspect the existing [automatic metrics](evaluation/metrics.json).
+- [ ] Select the same sample of at least 50 held-out strings across systems and perform blind ratings using [the review worksheet](evaluation/blind_review.csv). Do not inspect [the system key](evaluation/review_key.jsonl) until ratings are complete.
+- [ ] Compare the original model, fine-tuned model, and LocaleGuard workflow for accuracy, fluency, terminology consistency, and educational-context suitability; include the existing category-prefix baseline when reporting the four-system experiment.
+- [ ] Audit placeholder and markup errors, including false alarms and missed errors; record review time using a consistent procedure.
+- [ ] Summarize automatic scores, human ratings, remaining failures, and limitations with representative examples.
+
+Deliverables: completed rating worksheet, error analysis, and a concise evaluation report. Preserve the current test results; if feedback is used to tune the model, use fresh held-out data for subsequent evaluation rather than repeatedly optimizing against this test set.
+
+The two workstreams can proceed independently and be combined in the final report. Human cultural review and translation-quality evaluation remain pending. Playable-game integration is a separate future item with no owner assigned yet.
 
 ## Attribution and licenses
 
