@@ -1,6 +1,6 @@
 """Rebuild cleaned_data.jsonl and exclusion records from original_pairs.jsonl.
 
-Usage: python scripts/clean_codecombat.py [data-directory]
+Usage: python model_training/scripts/clean_codecombat.py [data-directory]
 Uses only the Python standard library. Original text is preserved in output.
 """
 import collections

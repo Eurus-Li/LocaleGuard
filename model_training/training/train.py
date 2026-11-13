@@ -53,7 +53,7 @@ def main():
     config=json.loads((dest/'adapter_config.json').read_text());config['base_model_name_or_path']=MODEL_ID;config['revision']=MODEL_REVISION
     (dest/'adapter_config.json').write_text(json.dumps(config,indent=2)+'\n')
     result={'seed':42,'base_model':MODEL_ID,'base_revision':MODEL_REVISION,'device':args.device,'platform':platform.platform(),'torch':torch.__version__,'epochs':args.epochs,'batch_size':args.batch_size,'optimizer':'AdamW','learning_rate':3e-4,'weight_decay':.01,'schedule':'5% warmup multiplied by linear decay with 0.1 floor','lora':{'r':8,'alpha':16,'dropout':.05,'target_modules':['q_proj','v_proj']},'trainable_parameters':sum(p.numel() for p in model.parameters() if p.requires_grad),'total_parameters_including_adapter':sum(p.numel() for p in model.parameters()),'initial_validation_loss':initial,'best_validation_loss':best,'selected_epoch':best_epoch,'history':history,'training_seconds':time.time()-start,'optimizer_steps':step,'adapter_sha256':hashlib.sha256((dest/'adapter_model.safetensors').read_bytes()).hexdigest(),'split_manifest_sha256':hashlib.sha256((ROOT/'data/splits/manifest.json').read_bytes()).hexdigest()}
-    (ROOT/'evaluation').mkdir(exist_ok=True);(ROOT/'evaluation/training_run.json').write_text(json.dumps(result,indent=2)+'\n')
+    (ROOT/'training_run.json').write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps(result,indent=2),flush=True)
 
 if __name__=='__main__':main()

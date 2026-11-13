@@ -15,13 +15,13 @@ This implementation follows the workflow and evaluation intent of the uploaded L
 
 ## Data preparation
 
-The original and automatically cleaned locale data remain unchanged. A second training-preparation step excludes examples exceeding 128 source or target tokenizer tokens. It never silently truncates training targets. Exact normalized Chinese or English matches are grouped, as are high-similarity candidate strings; see `data/splits/manifest.json` for thresholds. Groups are assigned to fixed train, validation, and test sets with seed 42. Related strings can still escape this heuristic. Grouping uses text only, before training; test targets are not used in model selection, glossary creation, or inference.
+The original and automatically cleaned locale data remain unchanged. A second training-preparation step excludes examples exceeding 128 source or target tokenizer tokens. It never silently truncates training targets. Exact normalized Chinese or English matches are grouped, as are high-similarity candidate strings; see `model_training/data/splits/manifest.json` for thresholds. Groups are assigned to fixed train, validation, and test sets with seed 42. Related strings can still escape this heuristic. Grouping uses text only, before training; test targets are not used in model selection, glossary creation, or inference.
 
 The fixed split is not stratified and mixes domains. The base model's OPUS pretraining data may overlap with public strings; absence of pretraining contamination has not been established. Neither these tests nor the small fine-tuning dataset establish broad cultural competence or generalization to other languages.
 
 ## Training and selection
 
-Train LoRA adapters for attention query/value projections for three epochs. Select the checkpoint with lowest token-weighted validation cross-entropy. Evaluate the held-out test set only after selection. No hyperparameter search or test-driven checkpoint selection is performed. See `evaluation/training_run.json` for actual settings and results.
+Train LoRA adapters for attention query/value projections for three epochs. Select the checkpoint with lowest token-weighted validation cross-entropy. Evaluate the held-out test set only after selection. No hyperparameter search or test-driven checkpoint selection is performed. See `model_training/training_run.json` for actual settings and results.
 
 ## Metrics
 
@@ -32,4 +32,4 @@ BLEU and chrF++ are computed on complete decoded strings, including remaining ta
 - [Helsinki-NLP/opus-mt-zh-en model card](https://huggingface.co/Helsinki-NLP/opus-mt-zh-en)
 - [Pinned base-model revision](https://huggingface.co/Helsinki-NLP/opus-mt-zh-en/tree/cf109095479db38d6df799875e34039d4938aaa6)
 - [PEFT LoRA documentation](https://huggingface.co/docs/peft/main/conceptual_guides/lora)
-- CodeCombat source attribution and upstream license: `data/codecombat/README.md` and `LICENSE-CodeCombat.txt`.
+- CodeCombat source attribution and upstream license: `model_training/data/codecombat/README.md` and `LICENSE-CodeCombat.txt`.

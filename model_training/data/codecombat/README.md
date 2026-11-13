@@ -48,11 +48,11 @@ The automatic filters leave 4,016 candidate records before deduplication, and 3,
 From the repository root, using Python 3 (standard library only):
 
 ```sh
-python3 scripts/clean_codecombat.py
+python3 model_training/scripts/clean_codecombat.py
 ```
 
 This reads `original_pairs.jsonl` and recreates the cleaned data, exclusions, and report. It does not modify the original pairs.
 
 ## Before training
 
-These are candidates, not human-validated gold translations. Absence of an AI marker does not prove human authorship. Shared keys can contain regional adaptations instead of equivalent translations. Review semantic alignment and focus on relevant categories before training. No train/validation/test split has been created. Group related and near-duplicate strings before splitting to reduce leakage. Preserve code tokens and placeholders; do not treat all differences as errors because some entries intentionally adapt content.
+These are candidates, not human-validated gold translations. Absence of an AI marker does not prove human authorship. Shared keys can contain regional adaptations instead of equivalent translations. Review semantic alignment and focus on relevant categories before training. The training pipeline now provides grouped train/validation/test splits in `model_training/data/splits/`; see the [split manifest](../splits/manifest.json). The original cleaned corpus remains unchanged. Preserve code tokens and placeholders; do not treat all differences as errors because some entries intentionally adapt content.

@@ -8,6 +8,18 @@ A small Chinese-to-English localization research prototype using CodeCombat's pu
 
 LocaleGuard uses CodeCombat's matched English and Simplified Chinese locale strings as a case study for translation, technical quality checks, and human cross-cultural review. The dataset includes game UI, programming explanations, and teacher-facing content, alongside account and marketing text. We use the public localization files; this repository does not include CodeCombat's proprietary hosted levels or a complete copy of the playable game.
 
+## Project structure
+
+The main branch is organized into three work folders:
+
+| Folder | Responsibility | Owner |
+| --- | --- | --- |
+| [model_training](model_training/README.md) | Data, training, trained adapter, inference, and training documentation | Eurus |
+| [cultural_risk_check](cultural_risk_check/README.md) | Human cultural and religious risk review | TBD — Mike or Rong |
+| [evaluation](evaluation/README.md) | Model comparison, metrics, predictions, and blind human evaluation | TBD — Mike or Rong |
+
+Each folder has its own README with entry points and next steps. Commands below run from the repository root.
+
 ## Current status
 
 - Mirrored **6,058 original bilingual pairs** and produced **3,866 automatically cleaned unique candidates** with an exclusion log and upstream attribution.
@@ -17,7 +29,7 @@ LocaleGuard uses CodeCombat's matched English and Simplified Chinese locale stri
 - Implemented placeholder, markup, optional length/glossary checks, JSON Schema validation, one bounded retry, and an approval-gated JSONL export.
 - Human quality/cultural review, review-time measurement, and playable-game integration are **not yet completed**.
 
-This follows the midterm presentation's workflow and evaluation goals, adapted to a small local translation model instead of a hosted LLM. See [methodology and scope](docs/methodology.md) for what is implemented and what remains.
+This follows the midterm presentation's workflow and evaluation goals, adapted to a small local translation model instead of a hosted LLM. See [methodology and scope](model_training/docs/methodology.md) for what is implemented and what remains.
 
 ## Measured results
 
@@ -34,19 +46,19 @@ The retry ran for five strings; two still had placeholder failures and remain re
 
 Checkpoint selection used validation loss only (3.5135 initially, 2.2350 at selected epoch 3). The test set was not used to select the checkpoint. This is one seed and one split, with no significance or broad generalization claim.
 
-Detailed evidence: [metrics](evaluation/metrics.json), [training run](evaluation/training_run.json), [all test predictions](evaluation/test_predictions.jsonl), and [human-review worksheet instructions](evaluation/HUMAN_REVIEW.md). Recorded training wall time includes substantial gaps in the local session and should not be treated as a controlled throughput benchmark. No paid inference API was used; hardware/electricity costs were not measured.
+Detailed evidence: [metrics](evaluation/metrics.json), [training run](model_training/training_run.json), [all test predictions](evaluation/test_predictions.jsonl), and [human-review worksheet instructions](evaluation/HUMAN_REVIEW.md). Recorded training wall time includes substantial gaps in the local session and should not be treated as a controlled throughput benchmark. No paid inference API was used; hardware/electricity costs were not measured.
 
 ## Data
 
 | File | Purpose |
 | --- | --- |
-| [Original pairs](data/codecombat/original_pairs.jsonl) | Unfiltered matched source values; 6,058 rows. |
-| [Cleaned data](data/codecombat/cleaned_data.jsonl) | Automatically filtered/deduplicated candidates; 3,866 rows. |
-| [Cleaning documentation](data/codecombat/README.md) | Provenance, exclusion rules, license, and limitations. |
-| [Split manifest](data/splits/manifest.json) | Seed, tokenizer limit, input hash, and grouping method. |
-| [Training split](data/splits/train.jsonl) | 3,459 rows. |
-| [Validation split](data/splits/validation.jsonl) | 200 rows for checkpoint selection. |
-| [Test split](data/splits/test.jsonl) | 200 held-out rows. |
+| [Original pairs](model_training/data/codecombat/original_pairs.jsonl) | Unfiltered matched source values; 6,058 rows. |
+| [Cleaned data](model_training/data/codecombat/cleaned_data.jsonl) | Automatically filtered/deduplicated candidates; 3,866 rows. |
+| [Cleaning documentation](model_training/data/codecombat/README.md) | Provenance, exclusion rules, license, and limitations. |
+| [Split manifest](model_training/data/splits/manifest.json) | Seed, tokenizer limit, input hash, and grouping method. |
+| [Training split](model_training/data/splits/train.jsonl) | 3,459 rows. |
+| [Validation split](model_training/data/splits/validation.jsonl) | 200 rows for checkpoint selection. |
+| [Test split](model_training/data/splits/test.jsonl) | 200 held-out rows. |
 
 Seven cleaned examples exceed the 128-token scope and were excluded from training preparation, not removed from the original cleaned dataset. Exact source/target matches and detected near-duplicates stay in the same split. This heuristic cannot guarantee removal of all semantic overlap or overlap with the base model's pretraining data.
 
@@ -59,21 +71,21 @@ Tested with Python 3.12 and CPU on Apple Silicon. The first run requires network
 ```sh
 python3 -m venv .venv
 source .venv/bin/activate
-python -m pip install -r training/requirements.txt
+python -m pip install -r model_training/training/requirements.txt
 
-python training/predict.py \
-  --input examples/input.jsonl \
+python model_training/training/predict.py \
+  --input model_training/examples/input.jsonl \
   --output outputs/drafts.jsonl
 ```
 
 Input fields: `id`, `category`, `zh_CN`, and optional positive integer `max_chars`. Supply `--glossary path/to/glossary.json` for a reviewed Chinese-term-to-English-term map; it is used for warning checks, not forced decoding. No approved glossary is bundled.
 
-Example observed output: `欢迎来到这个关卡。` → `Welcome to this level.` See [example predictions](examples/predictions.jsonl). Every generated record has `status: "needs_review"` and `cultural_review_required: true`, even if no technical warnings are found.
+Example observed output: `欢迎来到这个关卡。` → `Welcome to this level.` See [example predictions](model_training/examples/predictions.jsonl). Every generated record has `status: "needs_review"` and `cultural_review_required: true`, even if no technical warnings are found.
 
 Review and edit drafts, then explicitly set `status` to `approved` and add `reviewer` and `reviewed_at`. Export rechecks the current translation and refuses unresolved technical failures:
 
 ```sh
-python training/predict.py \
+python model_training/training/predict.py \
   --input outputs/reviewed.jsonl \
   --output outputs/approved.jsonl \
   --export-approved
@@ -86,16 +98,16 @@ Pass the same glossary during export if one was used for drafting. The local app
 The stored splits are the authoritative split for this run. To rebuild them and retrain:
 
 ```sh
-python scripts/clean_codecombat.py
-python training/prepare.py
-python training/train.py --epochs 3 --device cpu
-python training/evaluate.py
-python -m unittest discover -s tests -v
+python model_training/scripts/clean_codecombat.py
+python model_training/training/prepare.py
+python model_training/training/train.py --epochs 3 --device cpu
+python evaluation/evaluate.py
+python -m unittest discover -s model_training/tests -v
 ```
 
-Training updates only query/value LoRA weights (rank 8, alpha 16, dropout 0.05), using AdamW, batch size 8, seed 42, and a 3e-4 peak learning rate. Validation loss selects the best of three epochs. A rerun overwrites generated splits, adapter weights, and evaluation files. Numerical results can vary across hardware or library versions; [the full environment lock](training/requirements-lock.txt) records the actual run.
+Training updates only query/value LoRA weights (rank 8, alpha 16, dropout 0.05), using AdamW, batch size 8, seed 42, and a 3e-4 peak learning rate. Validation loss selects the best of three epochs. A rerun overwrites generated splits, adapter weights, and evaluation files. Numerical results can vary across hardware or library versions; [the full environment lock](model_training/training/requirements-lock.txt) records the actual run.
 
-`--base-model /path/to/local/base-model` supports an already downloaded base snapshot in prepare/train/evaluate/predict. The adapter is not a standalone model; it needs the exact base revision listed in its configuration and [model card](models/localeguard-marian-lora/README.md).
+`--base-model /path/to/local/base-model` supports an already downloaded base snapshot in prepare/train/evaluate/predict. The adapter is not a standalone model; it needs the exact base revision listed in its configuration and [model card](model_training/models/localeguard-marian-lora/README.md).
 
 ## Team and next work
 
@@ -131,4 +143,4 @@ The two workstreams can proceed independently and be combined in the final repor
 
 ## Attribution and licenses
 
-LocaleGuard code uses the repository's [MIT license](LICENSE). The mirrored CodeCombat locale files retain [CodeCombat's MIT notice](data/codecombat/LICENSE-CodeCombat.txt); hosted CodeCombat levels are not included or relicensed. The base translation model is by the University of Helsinki Language Technology Research Group and is distributed under CC BY 4.0. See the [model card](models/localeguard-marian-lora/README.md) for the base revision, adapter attribution, and limitations. No claim is made that the adapter is independent of its upstream model or training-data terms.
+LocaleGuard code uses the repository's [MIT license](LICENSE). The mirrored CodeCombat locale files retain [CodeCombat's MIT notice](model_training/data/codecombat/LICENSE-CodeCombat.txt); hosted CodeCombat levels are not included or relicensed. The base translation model is by the University of Helsinki Language Technology Research Group and is distributed under CC BY 4.0. See the [model card](model_training/models/localeguard-marian-lora/README.md) for the base revision, adapter attribution, and limitations. No claim is made that the adapter is independent of its upstream model or training-data terms.

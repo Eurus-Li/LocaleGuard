@@ -1,4 +1,9 @@
 """Compare fixed systems on the frozen held-out test set. No test tuning."""
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "model_training/training"))
+EVALUATION_ROOT = Path(__file__).resolve().parent
+
 import argparse
 import collections
 import csv
@@ -46,14 +51,14 @@ def main():
         metrics[name]={'bleu':bleu.corpus_score(hyps,references).score,'chrf_plus_plus':chrf.corpus_score(hyps,references).score,'exact_match_count':sum(h.strip()==r['en'].strip() for r,h in zip(rows,hyps)),'flagged_rows':sum(bool(f) for f in checks),'flag_counts':dict(collections.Counter(f['type'] for fs in checks for f in fs)),'source_rows_with_placeholders':placeholder_rows,'source_rows_with_markup':markup_rows,'inference_seconds':times[name],'seconds_per_string':times[name]/len(rows),'retry_count':len(bad) if name=='localeguard' else 0}
         for r,h,fs in zip(rows,hyps,checks):predictions.append({'id':r['id'],'category':r['category'],'source':r['zh_CN'],'reference':r['en'],'system':name,'translation':h,'flags':fs,'status':'needs_review'})
     result={'test_rows':len(rows),'systems':metrics,'bleu_signature':str(bleu.get_signature()),'chrf_signature':str(chrf.get_signature()),'generation':{'max_new_tokens':128,'initial_num_beams':1,'retry_num_beams':4,'max_retries':1},'length_limits':'No original character limits available; not fabricated or scored.','human_evaluation':'Not performed: quality ratings, review time, edits, cultural flags, and false alarms require human reviewers.','cost':'No paid API used. Local hardware/electricity costs not measured. Cost per accepted string is unavailable without approvals.','comparison_limit':'Base-context uses a prefix with a translation model not instruction-trained. Fine-tuning and prefix adaptation are confounded in base-context versus fine-tuned-context; no causal claim about context alone.'}
-    (ROOT/'evaluation/metrics.json').write_text(json.dumps(result,indent=2)+'\n');write_jsonl(ROOT/'evaluation/test_predictions.jsonl',predictions)
+    (EVALUATION_ROOT/'metrics.json').write_text(json.dumps(result,indent=2)+'\n');write_jsonl(EVALUATION_ROOT/'test_predictions.jsonl',predictions)
     review=predictions.copy();random.Random(42).shuffle(review);key=[]
     fields=['review_id','string_id','source','reference','translation','meaning_1_to_5','fluency_1_to_5','terminology_1_to_5','cultural_issue','review_seconds','edited_translation','accept','notes']
-    with (ROOT/'evaluation/blind_review.csv').open('w',newline='',encoding='utf-8') as f:
+    with (EVALUATION_ROOT/'blind_review.csv').open('w',newline='',encoding='utf-8') as f:
         w=csv.DictWriter(f,fieldnames=fields);w.writeheader()
         for i,r in enumerate(review):
             rid=f'R{i+1:04d}';w.writerow({'review_id':rid,'string_id':r['id'],'source':r['source'],'reference':r['reference'],'translation':r['translation']});key.append({'review_id':rid,'system':r['system'],'id':r['id']})
-    write_jsonl(ROOT/'evaluation/review_key.jsonl',key)
+    write_jsonl(EVALUATION_ROOT/'review_key.jsonl',key)
     print(json.dumps(result,indent=2),flush=True)
 
 if __name__=='__main__':main()
