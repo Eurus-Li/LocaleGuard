@@ -15,7 +15,7 @@ The main branch is organized into three work folders:
 | Folder | Responsibility | Owner |
 | --- | --- | --- |
 | [model_training](model_training/README.md) | Data, training, trained adapter, inference, and training documentation | Eurus |
-| [cultural_risk_check](cultural_risk_check/README.md) | Human cultural and religious risk review | TBD — Mike or Rong |
+| [cultural_risk_check](cultural_risk_check/README.md) | Cultural-review rubric, AI-assisted screening and cases; human validation pending | Human reviewer TBD |
 | [evaluation](evaluation/README.md) | Model comparison, metrics, predictions, and blind human evaluation | TBD — Mike or Rong |
 
 Each folder has its own README with entry points and next steps. Commands below run from the repository root.
@@ -27,6 +27,7 @@ Each folder has its own README with entry points and next steps. Commands below 
 - Saved a trained **294,912-parameter adapter** on a frozen **77,943,296-parameter base model** (about 78M parameters total). The adapter weights are included in this repository; the base model downloads separately from Hugging Face.
 - Evaluated the selected checkpoint on **200 held-out strings**, with reproducible splits and predictions.
 - Implemented placeholder, markup, optional length/glossary checks, JSON Schema validation, one bounded retry, and an approval-gated JSONL export.
+- Completed a [cultural-review package](cultural_risk_check/README.md): rubric, AI-assisted screen of 200 LocaleGuard drafts, eight cross-system case comparisons, and a separate eight-row synthetic challenge set. Human validation is pending.
 - Human quality/cultural review, review-time measurement, and playable-game integration are **not yet completed**.
 
 This follows the midterm presentation's workflow and evaluation goals, adapted to a small local translation model instead of a hosted LLM. See [methodology and scope](model_training/docs/methodology.md) for what is implemented and what remains.
@@ -113,19 +114,20 @@ Training updates only query/value LoRA weights (rank 8, alpha 16, dropout 0.05),
 
 **Eurus** owns data preparation, model training, and the translation pipeline. The first training run and automatic evaluation are complete; ongoing work includes supporting the reviewers and documenting subsequent model changes.
 
-**Mike and Rong:** ownership of the two workstreams below is **TBD**. Both are open for selection; neither task has been assigned to a specific teammate.
+The cultural-review package below is prepared, with named human review still pending. **Mike and Rong:** ownership of the remaining human-review and model-evaluation work is **TBD**; no human approval is implied by the prepared package.
 
-### TODO: Cross-cultural Risk Check — owner TBD
+### Cross-cultural Risk Check — preliminary package complete
 
-Goal: review whether translations could cause cultural or religious misunderstanding or offense for a defined audience.
+Goal: review whether translations could cause cultural or religious misunderstanding or offense for an explicit audience/context assumption.
 
-- [ ] Define the target region, cultural context, audience age, and educational setting before judging risk.
-- [ ] Create a review rubric covering religious references, cultural stereotypes, identity-related wording, and age/context appropriateness, with severity levels and supporting evidence.
-- [ ] Review source text and translation together; record string ID, available context, target audience, risk category, rationale, severity, and suggested revision. Mark insufficient context as needing clarification.
-- [ ] Document representative cases, including acceptable expressions where relevant. A religious term alone is not evidence of risk.
-- [ ] If real examples are scarce, create a separate, clearly labeled challenge set and report it separately from the real test data.
+- [x] Document a reference scenario (US English, ages 13–17, supervised programming classroom); no particular deployment audience was specified.
+- [x] Provide a [review rubric](cultural_risk_check/RUBRIC.md) with categories, severity, evidence rules and escalation.
+- [x] Complete a traceable [AI-assisted initial screen](cultural_risk_check/review_table.csv) of all 200 LocaleGuard test drafts: 5 revision proposals, 4 context questions, 6 noted quality-only issues, and 185 rows with no explicit signal identified.
+- [x] Document [representative cases and acceptable controls](cultural_risk_check/CASE_STUDIES.md), with eight selected IDs compared across all four stored systems.
+- [x] Keep eight [synthetic challenge examples](cultural_risk_check/challenge_set.csv) separate from real predictions; no model inference on that set is claimed.
+- [ ] Obtain named bilingual human validation, resolve context questions, and approve any publication edits.
 
-Deliverables: review rubric, annotated risk-review table, and a short case-study summary. This is a human-review workstream; its findings do not demonstrate that the model can automatically detect cultural risk.
+Deliverables and reproducible validation: [cultural_risk_check](cultural_risk_check/README.md). Counts describe AI triage, not cultural-risk prevalence or human ratings. Original predictions, test splits and model metrics are unchanged. This package does not establish automatic cultural-risk detection ability.
 
 ### TODO: Model Evaluation — owner TBD
 

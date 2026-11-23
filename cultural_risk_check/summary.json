@@ -1,0 +1,26 @@
+{
+  "review_date": "2026-11-23",
+  "baseline_commit": "f52d698a92550d27463cb57f3e5780a722cad2f8",
+  "scope_status": "User specified no particular audience; US English ages 13-17 is an analytical reference scenario, not a confirmed market requirement",
+  "system_screened": "localeguard",
+  "real_unique_ids": 200,
+  "decision_counts": {
+    "clarify": 4,
+    "no_signal": 185,
+    "quality_only": 6,
+    "revise": 5
+  },
+  "severity_counts": {
+    "0": 185,
+    "1": 1,
+    "2": 4,
+    "NA": 6,
+    "U": 4
+  },
+  "human_approved_rows": 0,
+  "case_comparison_ids": 8,
+  "case_comparison_rows": 32,
+  "synthetic_challenge_rows": 8,
+  "synthetic_model_inference_performed": false,
+  "interpretation": "Descriptive AI triage counts only; no prevalence, human agreement, detector accuracy, or cross-system cultural improvement estimate."
+}

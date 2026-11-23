@@ -1,0 +1,21 @@
+{
+  "baseline_commit": "f52d698a92550d27463cb57f3e5780a722cad2f8",
+  "review_date": "2026-11-23",
+  "inputs": {
+    "evaluation/test_predictions.jsonl": {
+      "sha256": "6e1607daeee15c02abb70e7a47c9d179b286258a192fd95d5e69f62ca89a4578",
+      "github_url": "https://github.com/Eurus-Li/LocaleGuard/blob/f52d698a92550d27463cb57f3e5780a722cad2f8/evaluation/test_predictions.jsonl"
+    },
+    "model_training/data/splits/test.jsonl": {
+      "sha256": "d4bac67b8591b89c6cac1237057be8b8cfe933cefb4b3ad3d7547d00bf5e62dd",
+      "github_url": "https://github.com/Eurus-Li/LocaleGuard/blob/f52d698a92550d27463cb57f3e5780a722cad2f8/model_training/data/splits/test.jsonl"
+    }
+  },
+  "upstream_git_blob_shas": {
+    "evaluation/test_predictions.jsonl": "18bac0cd27ed1255ecacb598e8546c2c732db7b6",
+    "model_training/data/splits/test.jsonl": "ab1c41e2eb10727bc9b8eabba8e24a12afb43132"
+  },
+  "sampling": "All 200 localeguard predictions in stored order; eight purposive IDs across four systems; eight separate synthetic challenge rows.",
+  "review_method": "AI-assisted unblinded bilingual text screening; no human sign-off, participant testing, timing measurement, or model inference.",
+  "context_available": "String ID and namespace only; no verified screenshot, speaker, scene, learner reaction, or school policy."
+}
